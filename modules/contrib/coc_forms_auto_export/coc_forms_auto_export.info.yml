@@ -1,0 +1,13 @@
+name: 'Webform Auto Exports'
+type: module
+description: 'Automatic export for Drupal Webform results'
+package: Webform
+core_version_requirement: ^9 || ^10 || ^11
+dependencies:
+  - webform:webform
+  - webform:webform_ui
+
+# Information added by Drupal.org packaging script on 2025-03-11
+version: '3.0.0-alpha1'
+project: 'coc_forms_auto_export'
+datestamp: 1741694648

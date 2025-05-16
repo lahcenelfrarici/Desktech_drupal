@@ -1,0 +1,49 @@
+global-css:
+  version: 1.0
+  css:
+    theme:
+      ./Desktech/assets/css/all.min.css: {}
+      ./Desktech/assets/css/bootstrap.min.css: {}
+      ./Desktech/assets/css/owl.carousel.min.css: {}
+      ./Desktech/assets/css/owl.theme.default.min.css: {}
+      ./Desktech/assets/css/aos.css: {}
+      # ./Desktech/assets/css/slick.css: {}
+      ./Desktech/assets/css/style.css: {}
+      ./Desktech/assets/css/style_dr.css: {}
+      # ./Desktech/assets/css/ayoub.css: {}
+      # ./Desktech/assets/css/responsive.css: {}
+
+
+      # css/responsive.css: {}
+
+global-js:
+  version: 1.0
+  js:
+    ./Desktech/assets/js/jquery-3.7.1.min.js: {}
+    ./Desktech/assets/js/jquery-ui.min.js: {}
+    ./Desktech/assets/js/bootstrap.bundle.min.js: {}
+    ./Desktech/assets/js/owl.carousel.min.js: {}
+    ./Desktech/assets/js/slick.min.js: {}
+    ./Desktech/assets/js/aos.js: {}
+    ./Desktech/assets/js/scripts.js: {}
+    # ./Desktech/assets/js/ayoub.js: {}
+  dependencies:
+    - core/jquery
+    - jquery.ui
+
+
+
+global-css-rtl:
+  css:
+    theme:
+      ./Desktech/assets/css/style-rtl.css: {}
+
+global-css-responsive:
+  css:
+    theme:
+      ./Desktech/assets/css/responsive.css: {}
+
+
+# addtoany-js:
+#   js:
+#     js/page.js: {}
