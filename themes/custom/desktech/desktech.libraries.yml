@@ -11,7 +11,7 @@ global-css:
       ./Desktech/assets/css/style.css: {}
       ./Desktech/assets/css/style_dr.css: {}
       # ./Desktech/assets/css/ayoub.css: {}
-      # ./Desktech/assets/css/responsive.css: {}
+      ./Desktech/assets/css/responsive.css: {}
 
 
       # css/responsive.css: {}

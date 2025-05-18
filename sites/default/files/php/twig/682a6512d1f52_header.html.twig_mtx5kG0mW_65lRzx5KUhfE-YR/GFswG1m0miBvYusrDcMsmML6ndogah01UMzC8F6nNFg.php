@@ -1,0 +1,223 @@
+<?php
+
+use Twig\Environment;
+use Twig\Error\LoaderError;
+use Twig\Error\RuntimeError;
+use Twig\Extension\SandboxExtension;
+use Twig\Markup;
+use Twig\Sandbox\SecurityError;
+use Twig\Sandbox\SecurityNotAllowedTagError;
+use Twig\Sandbox\SecurityNotAllowedFilterError;
+use Twig\Sandbox\SecurityNotAllowedFunctionError;
+use Twig\Source;
+use Twig\Template;
+
+/* @desktech/partials/header.html.twig */
+class __TwigTemplate_bc816b5efd10897fb3ffafaec3b037c6 extends Template
+{
+    private $source;
+    private $macros = [];
+
+    public function __construct(Environment $env)
+    {
+        parent::__construct($env);
+
+        $this->source = $this->getSourceContext();
+
+        $this->parent = false;
+
+        $this->blocks = [
+        ];
+        $this->sandbox = $this->env->getExtension('\Twig\Extension\SandboxExtension');
+        $this->checkSecurity();
+    }
+
+    protected function doDisplay(array $context, array $blocks = [])
+    {
+        $macros = $this->macros;
+        // line 14
+        echo "  <header class=\"bg-white shadow-sm header--menu\" data-sticky-class=\"is-sticky\">
+    <div class=\"top_header\">
+      ";
+        // line 35
+        echo "       ";
+        echo $this->extensions['Drupal\Core\Template\TwigExtension']->escapeFilter($this->env, Drupal\twig_tweak\TwigTweakExtension::drupalEntity("block", "desktech_topheader"), "html", null, true);
+        echo "
+    </div>
+    <nav class=\"navbar navbar-expand-lg navbar-light menu_principe\">
+      <div class=\"container\">
+        ";
+        // line 42
+        echo "        ";
+        echo $this->extensions['Drupal\Core\Template\TwigExtension']->escapeFilter($this->env, Drupal\twig_tweak\TwigTweakExtension::drupalEntity("block", "desktech_site_branding"), "html", null, true);
+        echo "
+        <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarScroll\"
+          aria-controls=\"navbarScroll\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
+          <span class=\"navbar-toggler-icon\"></span>
+        </button>
+        <div class=\"collapse navbar-collapse\" id=\"navbarScroll\">
+
+          ";
+        // line 82
+        echo "\t";
+        if (twig_get_attribute($this->env, $this->source, ($context["page"] ?? null), "primary_menu", [], "any", false, false, true, 82)) {
+            // line 83
+            echo "\t\t\t\t";
+            echo $this->extensions['Drupal\Core\Template\TwigExtension']->escapeFilter($this->env, $this->sandbox->ensureToStringAllowed(twig_get_attribute($this->env, $this->source, ($context["page"] ?? null), "primary_menu", [], "any", false, false, true, 83), 83, $this->source), "html", null, true);
+            echo "
+\t\t\t";
+        }
+        // line 85
+        echo "        </div>
+      </div>
+    </nav>
+  </header>
+";
+        $this->env->getExtension('\Drupal\Core\Template\TwigExtension')
+            ->checkDeprecations($context, ["page"]);    }
+
+    /**
+     * @codeCoverageIgnore
+     */
+    public function getTemplateName()
+    {
+        return "@desktech/partials/header.html.twig";
+    }
+
+    /**
+     * @codeCoverageIgnore
+     */
+    public function isTraitable()
+    {
+        return false;
+    }
+
+    /**
+     * @codeCoverageIgnore
+     */
+    public function getDebugInfo()
+    {
+        return array (  71 => 85,  65 => 83,  62 => 82,  51 => 42,  43 => 35,  39 => 14,);
+    }
+
+    public function getSourceContext()
+    {
+        return new Source("{# <header class=\"bg-white shadow-sm header--menu\" data-sticky-class=\"is-sticky\">
+\t<nav class=\"navbar navbar-expand-lg navbar-light container\">
+\t\t{{ drupal_entity('block','cfc_identitedusite') }}
+\t\t<button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarNav\" aria-controls=\"navbarNav\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
+\t\t\t<span class=\"navbar-toggler-icon\"></span>
+\t\t</button>
+\t\t<div class=\"collapse navbar-collapse\" id=\"navbarNav\">
+\t\t\t{% if page.primary_menu %}
+\t\t\t\t{{page.primary_menu}}
+\t\t\t{% endif %}
+\t\t</div>
+\t</nav>
+</header> #}
+  <header class=\"bg-white shadow-sm header--menu\" data-sticky-class=\"is-sticky\">
+    <div class=\"top_header\">
+      {# <div class=\"container\">
+        <span><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"19\" height=\"19\" viewBox=\"0 0 19 19\" fill=\"none\">
+            <path
+              d=\"M6.15295 1.93089L7.00558 1.65855C7.80358 1.40364 8.65699 1.8161 8.99899 2.62201L9.67983 4.22751C9.9767 4.92655 9.81204 5.7491 9.27291 6.26051L7.77429 7.68393C7.86691 8.53576 8.1527 9.37414 8.63245 10.1991C9.08832 10.9972 9.69967 11.6958 10.4303 12.2534L12.2322 11.6518C12.9146 11.4246 13.658 11.6866 14.0767 12.3017L15.0521 13.7346C15.5397 14.4503 15.4519 15.4367 14.8478 16.0431L14.2002 16.6931C13.5558 17.3399 12.6359 17.575 11.7841 17.309C9.77404 16.682 7.92629 14.8208 6.24004 11.7254C4.55141 8.62522 3.95608 5.99372 4.45245 3.83405C4.66145 2.92522 5.30904 2.20085 6.15454 1.93089H6.15295Z\"
+              fill=\"white\" />
+          </svg>+212 (0) 522 877 888</span>
+        <span><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"23\" height=\"18\" viewBox=\"0 0 23 18\" fill=\"none\">
+            <g clip-path=\"url(#clip0_31_70)\">
+              <path
+                d=\"M20.4445 0.833496H2.55561C2.21672 0.833496 1.89171 0.968119 1.65208 1.20775C1.41245 1.44738 1.27783 1.77239 1.27783 2.11127V14.8891C1.27783 15.2279 1.41245 15.5529 1.65208 15.7926C1.89171 16.0322 2.21672 16.1668 2.55561 16.1668H20.4445C20.7834 16.1668 21.1084 16.0322 21.348 15.7926C21.5877 15.5529 21.7223 15.2279 21.7223 14.8891V2.11127C21.7223 1.77239 21.5877 1.44738 21.348 1.20775C21.1084 0.968119 20.7834 0.833496 20.4445 0.833496ZM19.4606 14.8891H3.61617L8.08839 10.2635L7.16839 9.37544L2.55561 14.1479V3.08239L10.497 10.9854C10.7364 11.2234 11.0603 11.357 11.3978 11.357C11.7354 11.357 12.0593 11.2234 12.2987 10.9854L20.4445 2.88433V14.0649L15.7423 9.36266L14.8414 10.2635L19.4606 14.8891ZM3.39255 2.11127H19.4095L11.3978 10.0782L3.39255 2.11127Z\"
+                fill=\"white\" />
+            </g>
+            <defs>
+              <clipPath id=\"clip0_31_70\">
+                <rect width=\"23\" height=\"18\" fill=\"white\" />
+              </clipPath>
+            </defs>
+          </svg>info@desktech.ma</span>
+      </div> #}
+       {{ drupal_entity('block','desktech_topheader') }}
+    </div>
+    <nav class=\"navbar navbar-expand-lg navbar-light menu_principe\">
+      <div class=\"container\">
+        {# <a class=\"navbar-brand\" href=\"#\">
+        <img src=\"/themes/custom/desktech/Desktech/assets/images/logo1.png\">
+        </a> #}
+        {{ drupal_entity('block','desktech_site_branding') }}
+        <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarScroll\"
+          aria-controls=\"navbarScroll\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
+          <span class=\"navbar-toggler-icon\"></span>
+        </button>
+        <div class=\"collapse navbar-collapse\" id=\"navbarScroll\">
+
+          {# <ul class=\"navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll\" style=\"--bs-scroll-height: 100px;\">
+            <li class=\"nav-item dropdown\">
+              <a class=\"nav-link\" href=\"#\" id=\"navbarScrollingDropdown\" role=\"button\" data-bs-toggle=\"dropdown\"
+                aria-expanded=\"false\">
+                Produits et Services
+                <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"11\" height=\"8\" viewBox=\"0 0 11 8\" fill=\"none\">
+                  <path d=\"M1.2832 2L5.4082 6L9.5332 2\" stroke=\"#000849\" stroke-width=\"2\" stroke-linecap=\"round\"
+                    stroke-linejoin=\"round\" />
+                </svg>
+              </a>
+              <ul class=\"dropdown-menu\" aria-labelledby=\"navbarScrollingDropdown\">
+                <li><a class=\"dropdown-item\" href=\"#\">Action</a></li>
+                <li><a class=\"dropdown-item\" href=\"#\">Another action</a></li>
+                <li>
+                  <hr class=\"dropdown-divider\">
+                </li>
+                <li><a class=\"dropdown-item\" href=\"#\">Something else here</a></li>
+              </ul>
+            </li>
+            <li class=\"nav-item\">
+              <a class=\"nav-link\" aria-current=\"page\" href=\"#\">A Propos</a>
+            </li>
+            <li class=\"nav-item\">
+              <a class=\"nav-link\" href=\"#\">Blog</a>
+            </li>
+            <li class=\"nav-item\">
+              <a class=\"nav-link\" href=\"#\">Contact</a>
+            </li>
+            <li class=\"nav-item\">
+              <a class=\"nav-link\" href=\"#\">Demander un devis</a>
+            </li>
+
+          </ul> #}
+\t{% if page.primary_menu %}
+\t\t\t\t{{page.primary_menu}}
+\t\t\t{% endif %}
+        </div>
+      </div>
+    </nav>
+  </header>
+", "@desktech/partials/header.html.twig", "C:\\laragon\\www\\desktech_dr\\themes\\custom\\desktech\\templates\\partials\\header.html.twig");
+    }
+    
+    public function checkSecurity()
+    {
+        static $tags = array("if" => 82);
+        static $filters = array("escape" => 35);
+        static $functions = array("drupal_entity" => 35);
+
+        try {
+            $this->sandbox->checkSecurity(
+                ['if'],
+                ['escape'],
+                ['drupal_entity']
+            );
+        } catch (SecurityError $e) {
+            $e->setSourceContext($this->source);
+
+            if ($e instanceof SecurityNotAllowedTagError && isset($tags[$e->getTagName()])) {
+                $e->setTemplateLine($tags[$e->getTagName()]);
+            } elseif ($e instanceof SecurityNotAllowedFilterError && isset($filters[$e->getFilterName()])) {
+                $e->setTemplateLine($filters[$e->getFilterName()]);
+            } elseif ($e instanceof SecurityNotAllowedFunctionError && isset($functions[$e->getFunctionName()])) {
+                $e->setTemplateLine($functions[$e->getFunctionName()]);
+            }
+
+            throw $e;
+        }
+
+    }
+}
