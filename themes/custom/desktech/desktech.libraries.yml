@@ -2,16 +2,16 @@ global-css:
   version: 1.0
   css:
     theme:
-      ./Desk/assets/css/all.min.css: {}
-      ./Desk/assets/css/bootstrap.min.css: {}
-      ./Desk/assets/css/owl.carousel.min.css: {}
-      ./Desk/assets/css/owl.theme.default.min.css: {}
-      ./Desk/assets/css/aos.css: {}
-      # ./Desk/assets/css/slick.css: {}
-      ./Desk/assets/css/style.css: {}
-      ./Desk/assets/css/style_dr.css: {}
-      # ./Desk/assets/css/ayoub.css: {}
-      ./Desk/assets/css/responsive.css: {}
+      ./Desktech/assets/css/all.min.css: {}
+      ./Desktech/assets/css/bootstrap.min.css: {}
+      ./Desktech/assets/css/owl.carousel.min.css: {}
+      ./Desktech/assets/css/owl.theme.default.min.css: {}
+      ./Desktech/assets/css/aos.css: {}
+      # ./Desktech/assets/css/slick.css: {}
+      ./Desktech/assets/css/style.css: {}
+      ./Desktech/assets/css/style_dr.css: {}
+      # ./Desktech/assets/css/ayoub.css: {}
+      ./Desktech/assets/css/responsive.css: {}
 
 
       # css/responsive.css: {}
@@ -19,14 +19,14 @@ global-css:
 global-js:
   version: 1.0
   js:
-    ./Desk/assets/js/jquery-3.7.1.min.js: {}
-    ./Desk/assets/js/jquery-ui.min.js: {}
-    ./Desk/assets/js/bootstrap.bundle.min.js: {}
-    ./Desk/assets/js/owl.carousel.min.js: {}
-    ./Desk/assets/js/slick.min.js: {}
-    ./Desk/assets/js/aos.js: {}
-    ./Desk/assets/js/scripts.js: {}
-    # ./Desk/assets/js/ayoub.js: {}
+    ./Desktech/assets/js/jquery-3.7.1.min.js: {}
+    ./Desktech/assets/js/jquery-ui.min.js: {}
+    ./Desktech/assets/js/bootstrap.bundle.min.js: {}
+    ./Desktech/assets/js/owl.carousel.min.js: {}
+    ./Desktech/assets/js/slick.min.js: {}
+    ./Desktech/assets/js/aos.js: {}
+    ./Desktech/assets/js/scripts.js: {}
+    # ./Desktech/assets/js/ayoub.js: {}
   dependencies:
     - core/jquery
     - jquery.ui
@@ -36,12 +36,12 @@ global-js:
 global-css-rtl:
   css:
     theme:
-      ./Desk/assets/css/style-rtl.css: {}
+      ./Desktech/assets/css/style-rtl.css: {}
 
 global-css-responsive:
   css:
     theme:
-      ./Desk/assets/css/responsive.css: {}
+      ./Desktech/assets/css/responsive.css: {}
 
 
 # addtoany-js:
