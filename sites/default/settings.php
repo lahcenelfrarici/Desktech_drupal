@@ -896,9 +896,9 @@ if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
 
 $config['system.logging']['error_level'] = 'verbose';
 $databases['default']['default'] = array (
-  'database' => 'gebcloud_desktech',
-  'username' => 'gebcloud_desktech',
-  'password' => 'gebcloud_desktechgebcloud_desktech',
+  'database' => 'desktech',
+  'username' => 'root',
+  'password' => '',
   'prefix' => '',
   'host' => 'localhost',
   'port' => '3306',

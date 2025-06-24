@@ -9,9 +9,9 @@
 
 const path = require('path');
 const { copyFile, writeFile, readFile, chmod, mkdir } = require('fs').promises;
-const ckeditor5Files = require('/themes/custom/desktech/Desktech/assets/ckeditor5Files');
-const jQueryUIProcess = require('/themes/custom/desktech/Desktech/assets/process/jqueryui');
-const mapProcess = require('/themes/custom/desktech/Desktech/assets/process/map');
+const ckeditor5Files = require('/themes/custom/Desk/Desktech/assets/ckeditor5Files');
+const jQueryUIProcess = require('/themes/custom/Desk/Desktech/assets/process/jqueryui');
+const mapProcess = require('/themes/custom/Desk/Desktech/assets/process/map');
 
 const coreFolder = path.resolve(__dirname, '../../');
 const packageFolder = `${coreFolder}/node_modules`;

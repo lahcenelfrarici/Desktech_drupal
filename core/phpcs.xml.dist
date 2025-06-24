@@ -7,7 +7,7 @@
   <exclude-pattern>*/bower_components/*</exclude-pattern>
   <exclude-pattern>*/node_modules/*</exclude-pattern>
   <!--Exclude third party code.-->
-  <exclude-pattern>/themes/custom/desktech/Desktech/assets/vendor/*</exclude-pattern>
+  <exclude-pattern>/themes/custom/Desk/Desktech/assets/vendor/*</exclude-pattern>
   <!-- Exclude third-party code maintained within core that does not follow our standards. -->
   <!-- @todo This rule may be removed when https://www.drupal.org/node/1848264 is resolved. -->
   <exclude-pattern>./core/lib/Drupal/Component/Diff/</exclude-pattern>
