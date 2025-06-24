@@ -48,11 +48,11 @@ $('.cover-orange .play-icon').on('click', function () {
 });
 
   // Appliquer une image d'arrière-plan à un élément avec la classe .cover
-  $('.cover').css('background-image', 'url("/themes/custom/Desktech/Desktech/assets/images/pwc1.png")');
+  $('.cover').css('background-image', 'url("/themes/custom/desktech/Desktech/assets/images/pwc1.png")');
   // Appliquer une image d'arrière-plan à un élément avec la classe .cover
-  $('.cover-orange').css('background-image', 'url("/themes/custom/Desktech/Desktech/assets/images/orange1.png")');
+  $('.cover-orange').css('background-image', 'url("/themes/custom/desktech/Desktech/assets/images/orange1.png")');
   // Appliquer une image d'arrière-plan à un élément avec la classe .cover
-  $('.play-icon').css('background-image', 'url("/themes/custom/Desktech/Desktech/assets/images/iconoir_play-solid.png")');
+  $('.play-icon').css('background-image', 'url("/themes/custom/desktech/Desktech/assets/images/iconoir_play-solid.png")');
 
 
 
