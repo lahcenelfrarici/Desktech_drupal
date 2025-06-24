@@ -1,4 +1,7 @@
 @media (max-width: 991px) {
+  .img---five-desktech-bg img {
+  object-fit: cover;
+}
   .home_slider_content {
     height: auto;
   }
