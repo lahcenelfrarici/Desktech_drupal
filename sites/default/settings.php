@@ -895,18 +895,28 @@ if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
 }
 
 $config['system.logging']['error_level'] = 'verbose';
-$databases['default']['default'] = array (
+// $databases['default']['default'] = array (
+//   'database' => 'desktech',
+//   'username' => 'root',
+//   'password' => '',
+//   'prefix' => '',
+//   'host' => 'localhost',
+//   'port' => '3306',
+//   'isolation_level' => 'READ COMMITTED',
+//   'driver' => 'mysql',
+//   'namespace' => 'Drupal\\mysql\\Driver\\Database\\mysql',
+//   'autoload' => 'core/modules/mysql\\src\\Driver\\Database\\mysql\\',
+// );
+$databases['default']['default'] = [
   'database' => 'gebcloud_desktech',
   'username' => 'gebcloud_desktech',
   'password' => 'gebcloud_desktechgebcloud_desktech',
-  'prefix' => '',
   'host' => 'localhost',
   'port' => '3306',
-  'isolation_level' => 'READ COMMITTED',
   'driver' => 'mysql',
-  'namespace' => 'Drupal\\mysql\\Driver\\Database\\mysql',
-  'autoload' => 'core/modules/mysql\\src\\Driver\\Database\\mysql\\',
-);
+  'prefix' => '',
+  'collation' => 'utf8mb4_general_ci',
+];
 $settings['config_sync_directory'] = 'sites/default/files/config_IzVkw0B9CONYxhz2bJPwVwdFMONv8xQBRnjUTt1BcJt-n3YW2mqpGT_y3hAepNvXkRc2SRjM7g/sync';
 // $settings['config_sync_directory'] = 'sites/default/files/config_7atVNxrI6d_4Tl5_-CJP-TVu9Q9mSfJzqyyA4tp0QBXoBxxjCw_mmGhwvMa4O5YZJYvb1hhqPA/sync';
 // $settings['cache']['bins']['render'] = 'cache.backend.null';
