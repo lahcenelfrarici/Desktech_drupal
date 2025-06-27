@@ -1959,3 +1959,162 @@ li.nav-item.dropdown:hover ul.dropdown-menu {
     display: flex;
     align-items: center;
 }
+section.lists--all-blog .img--all-blog {
+    padding: 0;
+}
+
+/*  */
+.detail_lists--all-blog .items--sc-blg {
+    border: 1px solid rgba(191, 194, 209, 0.75);
+    background: #FFF;
+}
+
+section.detail_lists--all-blog {}
+
+section.detail_lists--all-blog {}
+
+section.detail_lists--all-blog .img--all-blog {
+    padding: 0;
+    height: 100%;
+    margin-bottom: 30px;
+}
+
+.wisiwig--body h6 {
+    color: #000947;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 122.727% */
+}
+
+.wisiwig--body h6 strong {
+    color: #CF102D;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.wisiwig--body h3 strong {
+    color: #CF102D;
+    font-family: Inter;
+    font-size: 27.563px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px; /* 126.984% */
+    text-decoration-style: solid;
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+
+
+.wisiwig--body ul {
+    color: #000947;
+    font-family: Inter;
+    font-size: 16.875px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 160% */
+    padding-left: 0;
+    list-style-type: none;
+}
+.wisiwig--body .card-item-all p {
+    color: #000;
+    font-family: Inter;
+    font-size: 17.016px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.wisiwig--body ul li {
+    margin-bottom: 10px;
+}
+li {}
+
+.wisiwig--body ul li strong {
+    color: #000947;
+    font-family: Inter;
+    font-size: 16.734px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27px; /* 161.345% */
+}
+
+.wisiwig--body ul li strong {}
+
+.wisiwig--body ul li {
+    color: #000947;
+    font-family: Inter;
+    font-size: 16.734px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27px; /* 161.345% */
+}
+
+.wisiwig--body h3 {
+    color: #000947;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px; /* 125% */
+}
+
+.wisiwig--body p {
+    color: #000;
+    font-family: Inter;
+    font-size: 17.016px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 158.678% */
+}
+section.detail_lists--all-blog h2 {
+    color: #000947;
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+section.detail_lists--all-blog .card-item-all h5 {
+    color: #000947;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px; /* 131.25% */
+}
+.top__recent_blog a {
+    color: #000849;
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.top__recent_blog h3 {
+    color: #000849;
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.top__recent_blog {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+section.lists--all-blog {
+    padding-top: 5px;
+}

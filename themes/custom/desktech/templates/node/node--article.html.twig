@@ -111,13 +111,12 @@
 </div> #}
 
 
-<section class="wisiwyg three_colmun_to_sc odd-re-bg" data-aos="fade-up" data-aos-duration="1000">
+{# <section class="wisiwyg three_colmun_to_sc odd-re-bg" data-aos="fade-up" data-aos-duration="1000">
 
 	<div class="container">
 
 		<div
 			class="container mt-4">
-			<!-- Header Section -->
 
 <h2>{{ node.title.value }}</h2>
 			<div class="article-date">
@@ -139,33 +138,82 @@
         </div>
 
 
-			<!-- Image Section -->
+
 			<div class="img--detail">
 				<img src="{{ file_url(node.field_image_news.entity.uri.value) }}">
 			</div>
 
-			<!-- Content Section -->
 			<div class="wrapper-description">
 				{{ content.body }}
 
 			</div>
       <div class="link___ex text-left">
-      {# {{node.field_link.value}} #}
-      {# {{dump(content)}}
-      {{ node.field_link.0['#url']|render }}
-{{ dump(node.field_link.0.uri) }} #}
 
-        {# <a target="_blank" href="{{ node.field_link.0.uri }}">
-    <h4>Here is the link to the website that sells tickets</h4>
-  </a> #}
      Here is the link to the website that sells tickets:  <span><a target="_blank" href="{{ node.field_link.0.uri }}">
      {{node.field_link.0.uri }}  </a>
  </span>
-        {# <a href="{{ file_url(node.field_link.entity.uri.value) }}"><h4>Here is the link to the website that sells tickets</h4></a> #}
       </div>
 		</div>
-		<!--  -->
+
 
 	</div>
 </div></section>
-	{{ drupal_view('events','block_1') }}
+	{{ drupal_view('events','block_1') }} #}
+  <section class="detail_lists--all-blog">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="items--sc-blg">
+            <div class="card-item-all">
+              <h5>{{ node.field_date.date|date('d/m/Y') }}</h5>
+              <h2>{{ node.title.value }}</h2>
+              <div class="img--all-blog">
+                <img src="{{ file_url(node.field_image.entity.uri.value) }}">
+              </div>
+              <div class="wisiwig--body">
+                {# <h6>Chez<strong> Deskitech</strong>, nous comprenons l'importance
+                  d'une imprimante fiable pour les entreprises marocaines. La Ricoh IM 370F combine
+                  performance, connectivité et durabilité pour répondre aux exigences des PME modernes.</h6>
+
+                <h3>Pourquoi choisir la <strong>Ricoh IM 370F ?</strong></h3>
+
+                <ul>
+                  <li><strong>Performance exceptionnelle :</strong> Avec une capacité d'impression de 37 pages par
+                    minute, cette imprimante garantit des documents de qualité professionnelle, adaptés aux exigences
+                    des environnements les plus dynamiques.</li>
+                  <li><strong>Solution compacte tout-en-un :</strong> Regroupe impression, copie, numérisation et fax
+                    dans un seul appareil. Cette solution économique optimise votre espace de travail tout en améliorant
+                    l'efficacité des opérations.</li>
+                  <li><strong>Connectivité moderne :</strong> Grâce à son écran couleur de 7 pouces, au Bluetooth et aux
+                    applications hébergées dans le Cloud, profitez d'un usage fluide et flexible, même à distance.</li>
+                  <li><strong>À sécurité renforcée :</strong> Protégez vos données sensibles avec un cryptage avancé et
+                    une gestion des accès, pour une tranquillité d'esprit totale.</li>
+                </ul>
+
+                <h3>Un choix écoresponsable</h3>
+                <p>La Ricoh IM 370F réduit votre impact écologique grâce à une faible consommation d'énergie et à des
+                  matériaux recyclés. Elle est conçue pour être l'alliée de la performance durable de votre parc
+                  d'impression.</p>
+
+                <h3>Boostez votre productivité dès maintenant !</h3>
+                <p>Dotée d'une grande capacité papier et d'une numérisation rapide, elle limite les interruptions et
+                  simplifie la gestion de vos documents numériques.</p>
+
+                <h3><strong>Contactez-nous pour en savoir plus !</strong></h3>
+                <p>Découvrez comment la <strong>Ricoh IM 370F</strong> peut transformer votre espace de travail.<br>
+                  Contactez <strong>Deskitech</strong> pour une démonstration ou un devis personnalisé.</p>
+
+                <p><em>L'équipe Deskitech</em></p>
+ #}
+ 	{{ content.body }}
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{#  #}
+			{{ drupal_view('blog','block_1') }}
+

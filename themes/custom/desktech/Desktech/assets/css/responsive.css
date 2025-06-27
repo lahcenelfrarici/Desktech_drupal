@@ -1,7 +1,44 @@
 @media (max-width: 991px) {
+
+  li.nav-item.dropdown:hover ul.dropdown-menu {
+    display: none;
+  }
+
+  li.nav-item.dropdown:hover ul.dropdown-menu.show {
+    display: block;
+  }
+    body .menu_principe .container {
+        padding: 15px !important;
+    }
+  li.nav-item.dropdown:hover ul.dropdown-menu {
+    border: 0;
+    padding: 10px 29px;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.10);
+  }
+
+  .menu_principe div#navbarScroll .navbar-nav-scroll {
+    height: 100%;
+    max-height: 100%;
+    gap: 20px 0;
+    text-align: left;
+    padding: 20px 30px;
+  }
+
+  .menu_principe div#navbarScroll .navbar-nav-scroll li {
+    text-align: left;
+    width: 100%;
+    flex-direction: column;
+    align-items: baseline;
+  }
+
+  .menu_principe .container {
+    padding: 15px !important;
+  }
+
   .img---five-desktech-bg img {
-  object-fit: cover;
-}
+    object-fit: cover;
+  }
+
   .home_slider_content {
     height: auto;
   }
@@ -190,60 +227,66 @@
   .breadcrumb-sx span {
     font-size: 27px;
   }
+
   .items--sc-sl-pr {
     padding: 30px 0;
-}
+  }
 
-.tele--brochure {padding: 15px;width: 100%;}
-
-.tele--contactez {
+  .tele--brochure {
     padding: 15px;
     width: 100%;
-}
+  }
 
-.contact-produits-et-services-desktech form >div:first-child {
+  .tele--contactez {
+    padding: 15px;
     width: 100%;
-}
+  }
 
-.contact-produits-et-services-desktech form >div:nth-child(2) {
+  .contact-produits-et-services-desktech form>div:first-child {
     width: 100%;
-}
+  }
 
-.contact-produits-et-services-desktech {
+  .contact-produits-et-services-desktech form>div:nth-child(2) {
+    width: 100%;
+  }
+
+  .contact-produits-et-services-desktech {
     margin-bottom: 40px;
-}
+  }
 
-.type--detail_product {
+  .type--detail_product {
     flex-direction: column;
     justify-content: left;
     align-items: baseline;
-}
-section.section-one-desktech-imprimantes-multifonctions .title--primary {
-  flex-direction: column;
-}
+  }
 
-section.section-one-desktech-imprimantes-multifonctions .title--primary h2 {
-  width: 100%;
-}
+  section.section-one-desktech-imprimantes-multifonctions .title--primary {
+    flex-direction: column;
+  }
 
-section.section-one-desktech-imprimantes-multifonctions .title--primary p {
-  width: 100%;
-}
+  section.section-one-desktech-imprimantes-multifonctions .title--primary h2 {
+    width: 100%;
+  }
 
-.item--checkbox {
-  margin-bottom: 30px;
-}
+  section.section-one-desktech-imprimantes-multifonctions .title--primary p {
+    width: 100%;
+  }
 
-.searhing-checkbox {
-  flex-direction: column;
-}
+  .item--checkbox {
+    margin-bottom: 30px;
+  }
 
-.card-filter-all {
-  height: auto;
-  padding: 30px;
-}
-.checkbox-container {
-  flex-direction: column;
-  align-items: baseline;
-}
+  .searhing-checkbox {
+    flex-direction: column;
+  }
+
+  .card-filter-all {
+    height: auto;
+    padding: 30px;
+  }
+
+  .checkbox-container {
+    flex-direction: column;
+    align-items: baseline;
+  }
 }
