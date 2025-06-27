@@ -1,0 +1,16 @@
+<?php
+function desktech_theme_suggestions_form_alter(array &$suggestions, array $variables) {
+  // die("testtt");
+  if (isset($variables['element']['#id'])) {
+   
+    $id = $variables['element']['#id'];
+
+    // // Suggest a template like form--example-form.html.twig
+    // $suggestions[] = 'form__' . strtr($id, '_', '__');
+    //  dump($suggestions , $id);
+     $sanitized_id = strtr($id, '-', '__');
+
+    // Add the form suggestion: form__{sanitized_id}
+    $suggestions[] = 'form__' . $sanitized_id;
+  }
+}
