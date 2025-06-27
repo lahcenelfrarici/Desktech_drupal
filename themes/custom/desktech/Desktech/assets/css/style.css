@@ -89,11 +89,11 @@ h6 {
   gap: 0 10px;
   justify-content: center;
   color: #FFF;
-font-family: Roboto;
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 
 .menu_principe {
@@ -371,15 +371,18 @@ li.nav-item {
   margin-left: 10px;
   vertical-align: middle;
 }
+
 .menu_principe div#navbarScroll .navbar-nav-scroll {
-    display: flex;
-    width: 100%;
-    justify-content: right;
-    gap: 0 40px;
+  display: flex;
+  width: 100%;
+  justify-content: right;
+  gap: 0 40px;
 }
+
 .menu_principe div#navbarScroll ul li .dropdown-toggle::after {
-    border: 0;
+  border: 0;
 }
+
 .top_header .container span svg {
   position: relative;
   top: 1px;
@@ -1082,7 +1085,7 @@ section#contact--nous {
 
 input[type="submit"] {}
 
-.contact-webform >div input {
+.contact-webform>div input {
   width: 258.855px;
   height: 60px;
   flex-shrink: 0;
@@ -1099,7 +1102,7 @@ input[type="submit"] {}
 
 .contact-webform {}
 
-.contact-webform form >div {
+.contact-webform form>div {
   width: 48%;
 }
 
@@ -1111,11 +1114,11 @@ input[type="submit"] {}
   justify-content: space-between;
 }
 
-.contact-webform form >div:nth-child(5) {
+.contact-webform form>div:nth-child(5) {
   width: 100%;
 }
 
-.contact-webform form >div:last-child {
+.contact-webform form>div:last-child {
   width: 100%;
 }
 
@@ -1126,12 +1129,15 @@ input[type="submit"] {}
 
 .two--column-contact {}
 
-.left--contact {padding: 70px 0;}
+.left--contact {
+  padding: 70px 0;
+}
 
 section#contact--nous .two--column-contact {
   align-items: center;
   display: flex;
 }
+
 .frm__vertical {
   writing-mode: sideways-lr;
   color: var(--heading, #2F4672);
@@ -1142,19 +1148,24 @@ section#contact--nous .two--column-contact {
   font-weight: 500;
   line-height: normal;
 }
-.svg__vertical {position: relative;width: 69px;}
+
+.svg__vertical {
+  position: relative;
+  width: 69px;
+}
 
 .frm__vertical {
-    bottom: 0;
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
-    width: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  bottom: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
 .service-title {
   font-family: Roboto;
   font-size: 24px;
@@ -1171,18 +1182,24 @@ section#contact--nous .two--column-contact {
   color: #000849;
 }
 
-.item--count-dc:nth-child(1) h5,.item--count-dc:nth-child(3) h5 {
+.item--count-dc:nth-child(1) h5,
+.item--count-dc:nth-child(3) h5 {
   border: 1px solid #CE112D;
 }
-section.section-three-desktech .row >div:nth-child(even) .click_card_link {
+
+section.section-three-desktech .row>div:nth-child(even) .click_card_link {
   background-color: #000849;
 }
-section.section-three-desktech .row >div:nth-child(even) h5 {
+
+section.section-three-desktech .row>div:nth-child(even) h5 {
   color: #CE112D;
 }
-.item--count-dc:nth-child(2) h5, .item--count-dc:nth-child(4) h5 {
+
+.item--count-dc:nth-child(2) h5,
+.item--count-dc:nth-child(4) h5 {
   border: 1px solid #000849;
 }
+
 .item--count-dc h5 {
   width: 64px;
   height: 64px;
@@ -1191,34 +1208,40 @@ section.section-three-desktech .row >div:nth-child(even) h5 {
 .service-box span.icon {
   padding-right: 15px;
 }
+
 .left--contact {
-    position: relative;
+  position: relative;
 }
 
 .svg__vertical_sc {
-    position: absolute;
-    right: -1px;
+  position: absolute;
+  right: -1px;
 }
 
 .svg__vertical_sc svg path {
-    fill: #fff;
+  fill: #fff;
 }
+
 .right--section-two-desktech a {
   border-radius: 0;
   width: auto;
   height: auto;
 }
+
 .btn--link-dr.link--dr {
   width: max-content;
 }
+
 .right--section-two-desktech {
   padding: 40px;
 }
+
 section.section-propose-one-desktech .right--section-two-desktech a {
   width: 336px;
   height: 60px;
   border-radius: 30px;
 }
+
 .img---five-desktech-bg {
   height: 620px;
 }
@@ -1234,11 +1257,16 @@ section.section-five-desktech .container-sc {
 
 .img---five-desktech-bg {}
 
-section.section-five-desktech .right--section-two-desktech {padding-top: 0;}
+section.section-five-desktech .right--section-two-desktech {
+  padding-top: 0;
+}
+
 section.section-five-desktech.section-propose-five-desktech .img---five-desktech-bg {
   height: 530px;
 }
+
 section.section-five-desktech {}
+
 .twoo--img-sc .para--text {
   display: flex;
   width: 285px;
@@ -1256,9 +1284,11 @@ section.section-five-desktech {}
   height: max-content;
   margin: auto;
 }
+
 .twoo--img-sc .para--text p {
   margin-bottom: 0;
 }
+
 .twoo--img-sc .para--text p {
   color: #FFF;
   text-align: center;
@@ -1272,33 +1302,38 @@ section.section-five-desktech {}
 section.section-propose-twoo-desktech {
   padding-top: 0;
 }
+
 .twoo--img-sc .para--text p:after {
   opacity: 0;
 }
+
 section.maps-img {
   padding: 0;
 }
+
 section.section-five-produits-et-services-desktech {
   background: #000849;
 }
+
 section.section-five-produits-et-services-desktech .title--primary {
   text-align: center;
 }
+
 .contact-produits-et-services-desktech {
   background: #F5F5F5;
   border-radius: 5px;
   background: #e6e9ffd4;
 }
 
-.contact-produits-et-services-desktech form >div:first-child {
+.contact-produits-et-services-desktech form>div:first-child {
   width: 49%;
 }
 
-.contact-produits-et-services-desktech form >div:nth-child(2) {
+.contact-produits-et-services-desktech form>div:nth-child(2) {
   width: 49%;
 }
 
-.contact-produits-et-services-desktech form >div input {
+.contact-produits-et-services-desktech form>div input {
   border-radius: 4px;
   border: 1px solid #000849;
   background: rgba(255, 255, 255, 0.80);
@@ -1334,13 +1369,13 @@ section.section-five-produits-et-services-desktech .title--primary {
 
 g {}
 
-.contact-produits-et-services-desktech form >div {
+.contact-produits-et-services-desktech form>div {
   width: 100%;
 }
 
-.contact-produits-et-services-desktech form >div {}
+.contact-produits-et-services-desktech form>div {}
 
-.contact-produits-et-services-desktech form >div textarea {
+.contact-produits-et-services-desktech form>div textarea {
   width: 100%;
   padding-left: 15px;
   height: 218px;
@@ -1352,22 +1387,25 @@ section.section-five-produits-et-services-desktech {}
 section.section-five-produits-et-services-desktech .right--section-two-desktech {
   padding: 0;
 }
-.contact-produits-et-services-desktech form >div:last-child {
-  display: flex
-;
+
+.contact-produits-et-services-desktech form>div:last-child {
+  display: flex;
   width: 161.404px;
 }
-.contact-produits-et-services-desktech form >div textarea {
+
+.contact-produits-et-services-desktech form>div textarea {
   border-radius: 5px;
   border-radius: 4px;
   border: 1px solid #000849;
   background: rgba(255, 255, 255, 0.80);
 }
+
 section.section-five-produits-et-services-desktech .right--section-two-desktech h2.text-white {
   max-width: 452px;
   margin: auto;
   margin-bottom: 30px;
 }
+
 section.banner_tp img {
   height: 70vh;
   object-fit: cover;
@@ -1377,22 +1415,28 @@ section.banner_tp img {
   height: auto;
   object-fit: cover;
 }
+
 section.section-five-produits-et-services-desktech .row {
   align-items: center;
 }
-section#blog--slider .banner >img {
+
+section#blog--slider .banner>img {
   opacity: 0;
 }
+
 section#blog--slider .row {
   align-items: center;
 }
+
 .items--sc-blg {
   background: #FFF;
   box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.25);
 }
+
 section.lists--all-imprimantes-multifonctions .row {
   gap: 30px 0;
 }
+
 .img--all-blog {
   height: 150px;
 }
@@ -1417,7 +1461,8 @@ section.lists--all-imprimantes-multifonctions .row {
   font-size: 19px;
   font-style: normal;
   font-weight: 500;
-  line-height: 27px; /* 142.105% */
+  line-height: 27px;
+  /* 142.105% */
   margin-bottom: 15px;
 }
 
@@ -1427,7 +1472,8 @@ section.lists--all-imprimantes-multifonctions .row {
   font-size: 13px;
   font-style: normal;
   font-weight: 400;
-  line-height: 22px; /* 169.231% */
+  line-height: 22px;
+  /* 169.231% */
   margin-bottom: 0;
 }
 
@@ -1438,6 +1484,7 @@ section.lists--all-imprimantes-multifonctions .row {
 section.lists--all-blog .row {
   gap: 20px 0;
 }
+
 /*  */
 
 .img--all-blog {
@@ -1464,7 +1511,8 @@ section.lists--all-blog .row {
   font-size: 19px;
   font-style: normal;
   font-weight: 500;
-  line-height: 27px; /* 142.105% */
+  line-height: 27px;
+  /* 142.105% */
   margin-bottom: 15px;
 }
 
@@ -1474,7 +1522,8 @@ section.lists--all-blog .row {
   font-size: 13px;
   font-style: normal;
   font-weight: 400;
-  line-height: 22px; /* 169.231% */
+  line-height: 22px;
+  /* 169.231% */
   margin-bottom: 0;
 }
 
@@ -1500,29 +1549,31 @@ section#blog--slider .row:after {
 section#blog--slider .row {
   position: relative;
 }
+
 section.section-one-desktech-imprimantes-multifonctions {}
 
 section.section-one-desktech-imprimantes-multifonctions .title--primary {
-    display: flex;
-    align-items: center;
-    text-align: left;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  justify-content: space-between;
 }
 
 .container {}
 
 section.section-one-desktech-imprimantes-multifonctions .title--primary h2 {
-    width: 40%;
+  width: 40%;
 }
 
 section.section-one-desktech-imprimantes-multifonctions .title--primary p {
-    width: 60%;
-    text-align: left;
+  width: 60%;
+  text-align: left;
 }
 
-section.section-one-desktech-imprimantes-multifonctions  .right--section-two-desktech {
-    padding: 0;
+section.section-one-desktech-imprimantes-multifonctions .right--section-two-desktech {
+  padding: 0;
 }
+
 section.lists--all-imprimantes-multifonctions .img--all-blog {
   height: auto;
 }
@@ -1560,6 +1611,7 @@ section.lists--all-imprimantes-multifonctions {}
 section.lists--all-imprimantes-multifonctions .card-item-all {
   padding: 0 40px 40px 40px;
 }
+
 .checkbox-container {
   display: flex;
   gap: 30px;
@@ -1595,6 +1647,7 @@ section.lists--all-imprimantes-multifonctions .card-item-all {
   color: red;
   font-size: 16px;
 }
+
 .card-filter-all {
   border-radius: 10px;
   height: 207px;
@@ -1668,12 +1721,15 @@ label.checkbox-wrapper {
 .title--filter {
   padding-bottom: 30px;
 }
+
 section.filter-imprimantes-multifonctions {
   padding-top: 0;
 }
+
 .img--all-blog {
   padding: 0 40px 40px 40px;
 }
+
 section.section-five-produits-et-services-desktech h5 {
   color: #FFF;
   text-align: center;
@@ -1684,6 +1740,7 @@ section.section-five-produits-et-services-desktech h5 {
   line-height: normal;
   text-transform: uppercase;
 }
+
 /* .searhing-checkbox > .item--checkbox:nth-child(1):nth-last-child(2)::before {
   content: "";
   position: absolute;
@@ -1716,14 +1773,17 @@ section.section-five-produits-et-services-desktech h5 {
   opacity: 1;
   border: 2px solid #000;
 }
+
 .informations_detail_product {
   color: #000849;
   font-family: Roboto;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: 33px; /* 183.333% */
+  line-height: 33px;
+  /* 183.333% */
 }
+
 .tele--brochure {
   border-radius: 10px;
   border: 2px solid #000849;
@@ -1743,7 +1803,8 @@ section.section-five-produits-et-services-desktech h5 {
   font-size: 23px;
   font-style: normal;
   font-weight: 400;
-  line-height: 38px; /* 165.217% */
+  line-height: 38px;
+  /* 165.217% */
   display: flex;
   gap: 0 20px;
   justify-content: start;
@@ -1771,18 +1832,21 @@ section.section-five-produits-et-services-desktech h5 {
   font-size: 23px;
   font-style: normal;
   font-weight: 400;
-  line-height: 38px; /* 165.217% */
+  line-height: 38px;
+  /* 165.217% */
   display: flex;
   align-items: center;
   gap: 0 20px;
 }
+
 .wrapper---type p:first-child {
   color: #CE112D;
   font-family: Roboto;
   font-size: 23px;
   font-style: normal;
   font-weight: 300;
-  line-height: 38px; /* 165.217% */
+  line-height: 38px;
+  /* 165.217% */
 }
 
 .wrapper---type p:last-child {
@@ -1817,156 +1881,171 @@ section.section-five-produits-et-services-desktech h5 {
 section.lists--detail_product .row {
   align-items: center;
 }
+
 section.lists--detail_product {}
 
 section.lists--detail_product .owl-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    top: 0;
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 section.lists--detail_product .main-carousel {
-    position: relative;
+  position: relative;
 }
 
 section.lists--detail_product .thumb-carousel .item img {
-    margin: auto;
-    text-align: center;
-    opacity: 1;
+  margin: auto;
+  text-align: center;
+  opacity: 1;
 }
 
 section.lists--detail_product .owl-nav button:hover {
-    background: transparent !important;
+  background: transparent !important;
 }
+
 .title--primary {
   margin-top: 30px;
 }
+
 /*  */
 .contact-produits-et-services-desktech {
-    background: transparent;
+  background: transparent;
 }
 
-.contact-produits-et-services-desktech form >div input, .contact-produits-et-services-desktech form >div textarea {
-    border-radius: 4px;
-    border: 2px solid #FFF;
-    background: rgba(255, 255, 255, 0.12);
-    color: #FFF;
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: 0.48px;
+.contact-produits-et-services-desktech form>div input,
+.contact-produits-et-services-desktech form>div textarea {
+  border-radius: 4px;
+  border: 2px solid #FFF;
+  background: rgba(255, 255, 255, 0.12);
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.48px;
 }
 
-.contact-produits-et-services-desktech form >div input::placeholder, .contact-produits-et-services-desktech form >div textarea::placeholder {
-    color: #fff;
+.contact-produits-et-services-desktech form>div input::placeholder,
+.contact-produits-et-services-desktech form>div textarea::placeholder {
+  color: #fff;
 }
 
-.contact-produits-et-services-desktech form >div textarea {
-    padding-top: 15px;
+.contact-produits-et-services-desktech form>div textarea {
+  padding-top: 15px;
 }
+
 .contact-produits-et-services-desktech input[type="submit"] {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border-radius: 4px;
-    background: #CE112D;
-    border: 0;
-    height: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  background: #CE112D;
+  border: 0;
+  height: 52px;
 }
-.contact-produits-et-services-desktech form >div:nth-child(3), .contact-produits-et-services-desktech form >div:nth-child(4) {
-    width: 49%;
+
+.contact-produits-et-services-desktech form>div:nth-child(3),
+.contact-produits-et-services-desktech form>div:nth-child(4) {
+  width: 49%;
 }
+
 .besoins-label label {
-    color: #FFF;
-    font-family: Roboto;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 0.6px;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.6px;
 }
 
-.contact-produits-et-services-desktech form >div >label {
-    color: #FFF;
-    font-family: Roboto;
-    font-size: 13px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: 0;
-    width: 50%;
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-    align-items: center;
-    gap: 0 5px;
+.contact-produits-et-services-desktech form>div>label {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 0 5px;
 }
 
-.contact-produits-et-services-desktech form >div:nth-child(5) {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+.contact-produits-et-services-desktech form>div:nth-child(5) {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
-.besoins-label {width: 100%;}
-
-.contact-produits-et-services-desktech form >div >label input {
-    width: auto;
-    width: 10%;
+.besoins-label {
+  width: 100%;
 }
+
+.contact-produits-et-services-desktech form>div>label input {
+  width: auto;
+  width: 10%;
+}
+
 section.section-five-desktech.section-propose-five-desktech h2 span {
-    border-radius: 10px;
-    background: #000849;
-    color: #fff;
-    padding: 10px 15px;
+  border-radius: 10px;
+  background: #000849;
+  color: #fff;
+  padding: 10px 15px;
 }
+
 section.maps-img img {
-    width: 100%;
+  width: 100%;
 }
+
 /*  */
 li.nav-item.dropdown:hover ul.dropdown-menu.show {
-    display: block;
+  display: block;
 }
 
 li.nav-item.dropdown:hover ul.dropdown-menu {
-    display: block;
-    top: 75px;
+  display: block;
+  top: 75px;
 }
 
 .menu_principe div#navbarScroll .navbar-nav-scroll {
-    height: 100%;
+  height: 100%;
 
-    height: 76px;
-    display: flex;
-    align-items: center;
-    position: relative;
+  height: 76px;
+  display: flex;
+  align-items: center;
+  position: relative;
 }
 
 .menu_principe {
-    padding: 0;
+  padding: 0;
 }
 
-.menu_principe div#navbarScroll .navbar-nav-scroll>  li {
-    height: 100%;
-    display: flex;
-    align-items: center;
+.menu_principe div#navbarScroll .navbar-nav-scroll>li {
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
+
 section.lists--all-blog .img--all-blog {
-    padding: 0;
+  padding: 0;
 }
 
 /*  */
 .detail_lists--all-blog .items--sc-blg {
-    border: 1px solid rgba(191, 194, 209, 0.75);
-    background: #FFF;
+  border: 1px solid rgba(191, 194, 209, 0.75);
+  background: #FFF;
 }
 
 section.detail_lists--all-blog {}
@@ -1974,147 +2053,162 @@ section.detail_lists--all-blog {}
 section.detail_lists--all-blog {}
 
 section.detail_lists--all-blog .img--all-blog {
-    padding: 0;
-    height: 100%;
-    margin-bottom: 30px;
+  padding: 0;
+  height: 100%;
+  margin-bottom: 30px;
 }
 
 .wisiwig--body h6 {
-    color: #000947;
-    font-family: Inter;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 27px; /* 122.727% */
+  color: #000947;
+  font-family: Inter;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  /* 122.727% */
 }
 
 .wisiwig--body h6 strong {
-    color: #CF102D;
-    font-family: Inter;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 27px;
+  color: #CF102D;
+  font-family: Inter;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
 }
 
 .wisiwig--body h3 strong {
-    color: #CF102D;
-    font-family: Inter;
-    font-size: 27.563px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 35px; /* 126.984% */
-    text-decoration-style: solid;
-    text-decoration-skip-ink: auto;
-    text-decoration-thickness: auto;
-    text-underline-offset: auto;
-    text-underline-position: from-font;
+  color: #CF102D;
+  font-family: Inter;
+  font-size: 27.563px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px;
+  /* 126.984% */
+  text-decoration-style: solid;
+  text-decoration-skip-ink: auto;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
 }
 
 
 .wisiwig--body ul {
-    color: #000947;
-    font-family: Inter;
-    font-size: 16.875px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 30px; /* 160% */
-    padding-left: 0;
-    list-style-type: none;
+  color: #000947;
+  font-family: Inter;
+  font-size: 16.875px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  /* 160% */
+  padding-left: 0;
+  list-style-type: none;
 }
+
 .wisiwig--body .card-item-all p {
-    color: #000;
-    font-family: Inter;
-    font-size: 17.016px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 27px;
+  color: #000;
+  font-family: Inter;
+  font-size: 17.016px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
 }
 
 .wisiwig--body ul li {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
+
 li {}
 
 .wisiwig--body ul li strong {
-    color: #000947;
-    font-family: Inter;
-    font-size: 16.734px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 27px; /* 161.345% */
+  color: #000947;
+  font-family: Inter;
+  font-size: 16.734px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 27px;
+  /* 161.345% */
 }
 
 .wisiwig--body ul li strong {}
 
 .wisiwig--body ul li {
-    color: #000947;
-    font-family: Inter;
-    font-size: 16.734px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 27px; /* 161.345% */
+  color: #000947;
+  font-family: Inter;
+  font-size: 16.734px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px;
+  /* 161.345% */
 }
 
 .wisiwig--body h3 {
-    color: #000947;
-    font-family: Inter;
-    font-size: 28px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 35px; /* 125% */
+  color: #000947;
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px;
+  /* 125% */
 }
 
 .wisiwig--body p {
-    color: #000;
-    font-family: Inter;
-    font-size: 17.016px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 27px; /* 158.678% */
+  color: #000;
+  font-family: Inter;
+  font-size: 17.016px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  /* 158.678% */
 }
+
 section.detail_lists--all-blog h2 {
-    color: #000947;
-    font-family: Roboto;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+  color: #000947;
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 section.detail_lists--all-blog .card-item-all h5 {
-    color: #000947;
-    font-family: Inter;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 21px; /* 131.25% */
+  color: #000947;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  /* 131.25% */
 }
+
 .top__recent_blog a {
-    color: #000849;
-    font-family: Roboto;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+  color: #000849;
+  font-family: Roboto;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 .top__recent_blog h3 {
-    color: #000849;
-    font-family: Roboto;
-    font-size: 28px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+  color: #000849;
+  font-family: Roboto;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 .top__recent_blog {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 30px;
 }
 
 section.lists--all-blog {
-    padding-top: 5px;
+  padding-top: 5px;
 }
+/* section.lists--all-blog {
+  padding-top: 5px;
+} */
