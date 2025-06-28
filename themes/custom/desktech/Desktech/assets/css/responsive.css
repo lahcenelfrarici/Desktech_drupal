@@ -1,4 +1,20 @@
 @media (max-width: 991px) {
+  .searhing-checkbox form {
+    flex-direction: column;
+    gap: 50px 0;
+  }
+
+  .searhing-checkbox form fieldset:after {
+    opacity: 0;
+  }
+
+  .searhing-checkbox form fieldset .fieldset-wrapper .bef-checkboxes {
+    text-align: center;
+    flex-direction: column;
+    gap: 20px 0;
+    justify-content: center;
+    margin: auto;
+  }
 
   li.nav-item.dropdown:hover ul.dropdown-menu {
     display: none;
@@ -7,9 +23,11 @@
   li.nav-item.dropdown:hover ul.dropdown-menu.show {
     display: block;
   }
-    body .menu_principe .container {
-        padding: 15px !important;
-    }
+
+  body .menu_principe .container {
+    padding: 15px !important;
+  }
+
   li.nav-item.dropdown:hover ul.dropdown-menu {
     border: 0;
     padding: 10px 29px;
