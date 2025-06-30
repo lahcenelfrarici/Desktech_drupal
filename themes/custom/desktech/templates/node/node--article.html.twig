@@ -165,7 +165,7 @@
         <div class="col-md-12">
           <div class="items--sc-blg">
             <div class="card-item-all">
-              <h5>{{ node.field_date.date|date('d/m/Y') }}</h5>
+              <h5 class="wrapper-reader-txt">{{ node.field_date.date|date('d M.Y') }}<span>.</span><div>1 min de lecture</div></h5>
               <h2>{{ node.title.value }}</h2>
               <div class="img--all-blog">
                 <img src="{{ file_url(node.field_image.entity.uri.value) }}">

@@ -257,3 +257,100 @@ section.lists--detail_product .thumb-carousel div img {
   width: auto;
   padding: 5px 30px;
 }
+.newsletter-text {
+    color: #000849;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 144.444% */
+    width: 40%;
+}
+
+.newsletter-container input[type="email"] {
+    border-radius: 10px;
+    border: 1px solid #000849;
+    background: rgba(255, 255, 255, 0.00);
+    height: 43px;
+    padding-left:15px
+}
+
+.newsletter-container input[type="email"]::placeholder {
+    color: #000849;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left:15px
+}
+
+.newsletter-container form button {
+    border-radius: 10px;
+    border: 1px solid #FFF;
+    background: #CE112D;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    height: 43px;
+}
+
+.newsletter-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.newsletter-container form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    gap: 15px 0;
+}
+h5.wrapper-reader-txt {
+    color: #000947;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px; /* 131.25% */
+    display: flex;
+    gap: 0 5px;
+}
+
+h5.wrapper-reader-txt span {
+    display: flex;
+    align-items: center;
+    height: 21px;
+    justify-content: center;
+    text-align: center;
+}
+.lists--detail_product .title--primary h2 {
+    border-bottom: 2px solid #CE112D;
+    width: fit-content;
+    padding-bottom: 10px;
+}
+.path-frontpage section.slider .banner img {height: 580px;}
+
+.path-frontpage section.slider h1 {
+    line-height: 56px;
+    font-size: 48px;
+}
+
+
+.path-frontpage .img____slider {
+    height: 75vh;
+}
+.one--img-sc-four img {
+
+  object-fit: cover;
+}
+.one--img-sc-four {
+  height: 540px;
+  border-radius: 30px;
+  overflow: hidden;
+}
