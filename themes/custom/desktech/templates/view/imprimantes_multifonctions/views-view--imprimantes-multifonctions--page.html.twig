@@ -58,67 +58,71 @@
 					<div class="right--section-two-desktech">
 						<div class="title--primary">
 							<h5 class="mb-3 text-white">{{'Vous savez ce que vous voulez ?' |t}}</h5>
-							<h2>
+
+
+	{# <h2>
 								<span class="text-white">Demandez un devis
 									<br>personnalisé
 									<span class="scanner-desk">{{'DESKTECH'|t}}</span>
 								</span>
-							</h2>
+							</h2> #}
+
+							<h2{{'DESKTECH'|t}}</span class="text-white" {{'>Demandez un devis personnalisé' |t}} <span>></h2>
 						</div>
 						<div
 							class="contact-produits-et-services-desktech">
 
 							{# <form action="#" method="post">
-																																																											<div class="champs">
-																																																												<input type="text" id="nom" name="nom" placeholder="Votre nom*" required="">
-																																																											</div>
+																																						<div class="champs">
+																																							<input type="text" id="nom" name="nom" placeholder="Votre nom*" required="">
+																																						</div>
 
-																																																											<div class="champs">
-																																																												<input type="email" id="email" name="email" placeholder="Votre e-mail" required="">
-																																																											</div>
-																																																											<div class="champs">
-																																																												<input type="text" id="societe" name="societe" placeholder="Numéro de téléphone">
-																																																											</div>
-																																																											<div class="champs">
-																																																												<input type="text" id="societe" name="societe" placeholder="Votre Société">
-																																																											</div>
+																																						<div class="champs">
+																																							<input type="email" id="email" name="email" placeholder="Votre e-mail" required="">
+																																						</div>
+																																						<div class="champs">
+																																							<input type="text" id="societe" name="societe" placeholder="Numéro de téléphone">
+																																						</div>
+																																						<div class="champs">
+																																							<input type="text" id="societe" name="societe" placeholder="Votre Société">
+																																						</div>
 
-																																																											<div class="champs">
-																																																												<div class="besoins-label">
-																																																													<label>
-																																																														<strong>Vos besoins *</strong>
-																																																													</label><br>
-																																																												</div>
+																																						<div class="champs">
+																																							<div class="besoins-label">
+																																								<label>
+																																									<strong>Vos besoins *</strong>
+																																								</label><br>
+																																							</div>
 
-																																																												<label>
-																																																													<input type="checkbox" name="besoins[]" value="Imprimantes multifonctions">
-																																																													Imprimantes multifonctions
-																																																												</label><br>
+																																							<label>
+																																								<input type="checkbox" name="besoins[]" value="Imprimantes multifonctions">
+																																								Imprimantes multifonctions
+																																							</label><br>
 
-																																																												<label>
-																																																													<input type="checkbox" name="besoins[]" value="Impression de production et traceurs">
-																																																													Impression de production et traceurs
-																																																												</label><br>
+																																							<label>
+																																								<input type="checkbox" name="besoins[]" value="Impression de production et traceurs">
+																																								Impression de production et traceurs
+																																							</label><br>
 
-																																																												<label>
-																																																													<input type="checkbox" name="besoins[]" value="Espaces de travail modernes">
-																																																													Espaces de travail modernes
-																																																												</label><br>
+																																							<label>
+																																								<input type="checkbox" name="besoins[]" value="Espaces de travail modernes">
+																																								Espaces de travail modernes
+																																							</label><br>
 
-																																																												<label>
-																																																													<input type="checkbox" name="besoins[]" value="Solutions digitales et gestion documentaire">
-																																																													Solutions digitales et gestion documentaire
-																																																												</label>
-																																																											</div>
+																																							<label>
+																																								<input type="checkbox" name="besoins[]" value="Solutions digitales et gestion documentaire">
+																																								Solutions digitales et gestion documentaire
+																																							</label>
+																																						</div>
 
-																																																											<div class="champs">
-																																																												<textarea id="message" name="message" placeholder="Décrivez-nous votre besoin..."></textarea>
-																																																											</div>
+																																						<div class="champs">
+																																							<textarea id="message" name="message" placeholder="Décrivez-nous votre besoin..."></textarea>
+																																						</div>
 
-																																																											<div>
-																																																												<input type="submit" value="Envoyer">
-																																																											</div>
-																																																										</form> #}
+																																						<div>
+																																							<input type="submit" value="Envoyer">
+																																						</div>
+																																					</form> #}
 							{{ drupal_entity('block','desktech_webform_2') }}
 						</div>
 
