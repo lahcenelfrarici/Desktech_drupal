@@ -159,27 +159,19 @@ var main = $(".main-carousel");
     }
   }
 
+
+
+    $(document).ajaxComplete(function () {
+      const $target = $('.lists--all-imprimantes-multifonctions');
+      if ($target.length) {
+        $('html, body').animate({
+          scrollTop: $target.offset().top - 450
+        }, 500);
+      }
+    });
+
+
 })(jQuery);
 // $(document).ready(function () {
 //   $('#exampleModal').modal('show');
 // });
-(function ($, Drupal) {
-  Drupal.behaviors.preventScrollOnViewsAjax = {
-    attach: function (context, settings) {
-      if (Drupal.ajax && !Drupal.ajax.prototype._originalSuccess) {
-        Drupal.ajax.prototype._originalSuccess = Drupal.ajax.prototype.success;
-
-        Drupal.ajax.prototype.success = function (response, status) {
-          // Only apply to views AJAX requests
-          if (this.element && $(this.element).hasClass('views-ajax')) {
-            var scrollTop = $(window).scrollTop(); // Save scroll position
-            this._originalSuccess(response, status); // Default behavior
-            $(window).scrollTop(scrollTop); // Restore scroll position
-          } else {
-            this._originalSuccess(response, status); // Fallback
-          }
-        };
-      }
-    }
-  };
-})(jQuery, Drupal);

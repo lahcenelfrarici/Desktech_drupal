@@ -307,4 +307,138 @@
     flex-direction: column;
     align-items: baseline;
   }
+
+  /*  */
+  .path-frontpage section.slider h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .path-frontpage section.slider h1 span {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  section.slider a {
+    font-size: 18px;
+  }
+
+  .title--primary h2,
+  .title--primary h2 span {
+    font-size: 30px;
+  }
+
+  .title--primary {
+    margin: 0;
+  }
+
+  .img---five-desktech-bg img {
+    height: 100%;
+  }
+
+  .img---five-desktech-bg {
+    height: 600px;
+  }
+
+  .one--img-sc-four {
+    height: auto;
+  }
+
+  .contact-produits-et-services-desktech {
+    padding: 0;
+  }
+
+  .contact-produits-et-services-desktech form>div input::placeholder {
+    font-size: 14px;
+  }
+
+  .contact-produits-et-services-desktech form>div input {
+    font-size: 14px;
+  }
+
+  .contact-produits-et-services-desktech form {
+    align-items: center;
+  }
+
+  .contact-produits-et-services-desktech form>div input {
+    margin: 0;
+  }
+
+  section.section-propose-one-desktech .para--text {
+    bottom: 0;
+    height: auto;
+  }
+
+  .para--text p {
+    font-size: 25px;
+  }
+
+  .right--section-two-desktech {
+    padding: 0;
+  }
+
+  section.slider .banner img {
+    height: auto;
+  }
+
+  .newsletter-container {
+    flex-direction: column;
+    gap: 20px 0;
+    margin: 20px 0;
+  }
+
+  .newsletter-text {
+    width: 100%;
+  }
+
+  form.newsletter-form {
+    width: 100%;
+  }
+
+  section#blog--slider {
+    padding: 40px 0;
+  }
+
+  section#blog--slider .container {
+    position: relative;
+    top: auto;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+
+  section#blog--slider .banner>img {
+    display: none;
+  }
+
+  section.slider h1 span {
+    font-size: 30px;
+    line-height: normal;
+  }
+
+  section.slider h1 {
+    font-size: 30px;
+  }
+
+  section#blog--slider .row:after {
+    opacity: 0;
+  }
+
+  .card-item-all {
+    padding: 40px 15px;
+  }
+
+  section.detail_lists--all-blog h2 {
+    font-size: 30px;
+  }
+
+  .top__recent_blog h3 {
+    margin: 0;
+  }
+
+  .items--sc-sl-pr {
+    padding: 0;
+  }
+
+  .title-detail_product h2 {
+    font-size: 30px;
+  }
 }
