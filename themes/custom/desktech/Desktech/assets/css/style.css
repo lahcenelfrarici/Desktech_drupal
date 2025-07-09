@@ -2209,6 +2209,12 @@ section.detail_lists--all-blog .card-item-all h5 {
 section.lists--all-blog {
   padding-top: 5px;
 }
+
 /* section.lists--all-blog {
   padding-top: 5px;
 } */
+.item--count-dc h5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
