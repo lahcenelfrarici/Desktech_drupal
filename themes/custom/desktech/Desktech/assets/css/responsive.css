@@ -13,7 +13,7 @@
     justify-content: flex-start;
   }
 
-  .form_two_filter  form fieldset:first-child {
+  .form_two_filter form fieldset:first-child {
     padding-right: 20px;
   }
 
@@ -23,6 +23,10 @@
 }
 
 @media (max-width: 991px) {
+  .path-frontpage section.slider .banner img {
+    opacity: 0;
+  }
+
   .searhing-checkbox form {
     flex-direction: column;
     gap: 50px 0;
