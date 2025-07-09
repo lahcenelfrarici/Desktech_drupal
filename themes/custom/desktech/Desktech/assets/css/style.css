@@ -1201,10 +1201,12 @@ section.section-three-desktech .row>div:nth-child(even) h5 {
 }
 
 .item--count-dc h5 {
-  width: 64px;
+  width: 54px;
   height: 64px;
 }
-
+.item--count-dc h5 {
+    border: 0 !important;
+}
 .service-box span.icon {
   padding-right: 15px;
 }
