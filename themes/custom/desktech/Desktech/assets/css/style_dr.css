@@ -237,8 +237,9 @@ section.lists--detail_product .thumb-carousel div img {
   margin: auto;
   text-align: center;
   opacity: 1;
-  height: 100px;
-  width: auto;
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
 }
 
 .thumb-carousel div img {
