@@ -241,7 +241,9 @@ section.lists--detail_product .thumb-carousel div img {
     width: 100px;
     object-fit: contain;
 }
-
+.thumb-carousel {
+    margin-top: 30px;
+}
 .thumb-carousel div img {
   width: 100px;
   height: auto;
