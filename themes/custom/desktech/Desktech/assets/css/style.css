@@ -677,16 +677,16 @@ p {
 }
 
 .owl-carousel.five-desktech-owl .item {
-  height: 104px;
+  height: 323px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.owl-carousel.five-desktech-owl .item img {
+/* .owl-carousel.five-desktech-owl .item img {
   width: auto;
   height: auto;
-}
+} */
 
 section.section-five-desktech .owl-nav {
   display: flex;
