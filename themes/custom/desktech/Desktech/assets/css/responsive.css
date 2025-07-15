@@ -390,8 +390,12 @@
     height: 100%;
   }
 
+  section.section-five-desktech.section-propose-five-desktech .img---five-desktech-bg {
+    height: 800px !important;
+  }
+
   .img---five-desktech-bg {
-    height: 600px;
+    height: 800px;
   }
 
   .one--img-sc-four {
