@@ -2,7 +2,21 @@
   /* .form_two_filter form fieldset {
     width: 50%;
   } */
+section#blog--slider img {
+    height: 540px;
+}
 
+section#blog--slider img {
+    margin: 40px 0  60px 0;
+}
+
+section#blog--slider {
+    padding: 40px 0;
+}
+
+section#blog--slider .row:after {
+    bottom: 0;
+}
   .form_two_filter form fieldset:after {
     transform: initial;
     content: "";

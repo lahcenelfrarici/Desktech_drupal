@@ -1802,7 +1802,7 @@ section.section-five-produits-et-services-desktech h5 {
 .tele--brochure a {
   color: #000849;
   font-family: Roboto;
-  font-size: 23px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 38px;
@@ -1831,7 +1831,7 @@ section.section-five-produits-et-services-desktech h5 {
 .tele--contactez a {
   color: #FFF;
   font-family: Roboto;
-  font-size: 23px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 38px;
@@ -2219,4 +2219,26 @@ section.lists--all-blog {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+section.maps-img {
+    display: none;
+}
+div#banner___small section.banner_tp .banner {
+    height: 354px;
+}
+div#banner___small section.banner_tp .banner img {
+    height: 100%;
+    width: 100%;
+}
+.section-three-desktech-white section.section-three-desktech .title--primary.text-center {
+    margin-top: 0;
+}
+#espace__filter__2 .searhing-checkbox form fieldset:after {
+    transform: translateX(45px);
+}
+.tele--contactez {
+    width: 330px;
+}
+.tele--brochure {
+    width: 330px;
 }
