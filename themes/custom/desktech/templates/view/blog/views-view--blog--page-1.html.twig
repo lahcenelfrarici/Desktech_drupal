@@ -121,10 +121,12 @@
     <div class="newsletter-text">
       Inscrivez-Vous<br />à notre <strong>Newsletter</strong>
     </div>
-    <form class="newsletter-form">
+    {# <form class="newsletter-form">
       <input type="email" placeholder="Votre e-mail" required />
       <button type="submit">Envoyer</button>
-    </form>
+    </form> #}
+            {{ drupal_entity('block','desktech_webform_3') }}
+
   </div>
             {# <div class="button button_light home_button"><a href="#">
                 <svg width="67" height="67" viewBox="0 0 67 67" fill="none" xmlns="http://www.w3.org/2000/svg"

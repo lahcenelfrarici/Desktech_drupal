@@ -134,11 +134,12 @@ gtag('config', 'G-9WWD1TRBQN');
 				<p>
 					Abonnez-vous pour recevoir les dernières nouveautés et offres exclusives Ricoh au Maroc.
 				</p>
-				<form class="d-flex mt-3">
+				{# <form class="d-flex mt-3">
 					<input type="email" class="form-control rounded-pill" placeholder="Votre E-mail" required="">
 					<button type="submit" class="form--news">Envoyer
 					</button>
-				</form>
+				</form> #}
+        {{ drupal_entity('block','desktech_webform_3') }}
 			</div>
 
 			<div class="text-center mb-4 copyright--foooter mt-3">
