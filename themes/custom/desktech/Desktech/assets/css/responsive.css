@@ -1,22 +1,38 @@
 @media (min-width: 992px) {
+  .items--sc-blg {
+    height: 100%;
+  }
+
+  .card-item-all {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  section.lists--all-imprimantes-multifonctions h2 {
+    height: 105px;
+
+  }
+
   /* .form_two_filter form fieldset {
     width: 50%;
   } */
-section#blog--slider img {
+  section#blog--slider img {
     height: 540px;
-}
+  }
 
-section#blog--slider img {
-    margin: 40px 0  60px 0;
-}
+  section#blog--slider img {
+    margin: 40px 0 60px 0;
+  }
 
-section#blog--slider {
+  section#blog--slider {
     padding: 40px 0;
-}
+  }
 
-section#blog--slider .row:after {
+  section#blog--slider .row:after {
     bottom: 0;
-}
+  }
+
   .form_two_filter form fieldset:after {
     transform: initial;
     content: "";
