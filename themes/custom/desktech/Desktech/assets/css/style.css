@@ -39,7 +39,11 @@
   src: url("../webfonts/cairo/cairo-Bold.ttf");
   font-display: swap;
 }
-
+@font-face {
+  font-family: poppins;
+  src: url("../webfonts/cairo/poppins-regular.ttf");
+  font-display: swap;
+}
 
 
 a:hover {

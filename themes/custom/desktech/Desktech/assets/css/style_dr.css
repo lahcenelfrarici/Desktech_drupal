@@ -476,6 +476,78 @@ section.lists--all-imprimantes-multifonctions {
 
   width: 100%;
 }
+
+.banner__news_modify img {
+  height: 100%;
+  width: 100%;
+}
+
+section.section-four-desktech {
+  padding: 0;
+}
+
+section.section-four-desktech .title--primary {
+  margin: 0;
+}
+
+.contact-produits-et-services-desktech form>div input,
+.contact-produits-et-services-desktech form>div textarea {
+  margin: 0;
+}
+
+.item--count-dc:nth-child(1) p,
+.item--count-dc:nth-child(3) p {
+  color: #CE112D;
+}
+
+.owl-carousel.five-desktech-owl .item {
+  height: auto;
+}
+
+.link___footer_height ul li {
+  margin-bottom: 10px;
+}
+
+.link___footer_height ul {
+  padding-top: 5px;
+}
+
+div#block-desktech-footerleft p {
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+footer.text-light.py-5 {
+  padding-bottom: 0 !important;
+}
+
+.wisiwig--body p img {
+  width: auto;
+  margin: auto;
+  display: flex;
+}
+
+.wrapper---type {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: -webkit-fill-available;
+}
+
+.type--detail_product {
+  height: 100%;
+  flex-direction: row;
+}
+
+.menu_principe div#navbarScroll ul li a.active {
+  font-weight: bold;
+}
+
+/* .newsletter-container form {
+
+  width: 100%;
+} */
 /* .newsletter-container form {
 
   width: 100%;
