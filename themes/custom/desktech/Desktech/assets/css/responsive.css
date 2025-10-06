@@ -598,4 +598,7 @@
   section.slider .home_button {
     width: auto;
   }
+  section.section-four-desktech {
+  padding: 40px 15px;
+}
 }
