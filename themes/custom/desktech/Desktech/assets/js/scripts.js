@@ -186,7 +186,11 @@ var main = $(".main-carousel");
   //   // Add active to the first menu item
   //   $('.navbar-expand-lg .navbar-nav .nav-item:first-child .nav-link').addClass('active');
   // }
-
+ $('.informations_detail_product div').each(function() {
+    if ($(this).text().trim() === 'Informations sur le Produit') {
+      $(this).remove();
+    }
+  });
 })(jQuery);
 // $(document).ready(function () {
 //   $('#exampleModal').modal('show');
