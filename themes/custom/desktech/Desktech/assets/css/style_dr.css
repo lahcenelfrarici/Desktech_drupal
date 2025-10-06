@@ -543,7 +543,9 @@ footer.text-light.py-5 {
 .menu_principe div#navbarScroll ul li a.active {
   font-weight: bold;
 }
-
+.item--count-dc p, .item--count-dc span {
+    font-family: Poppins;
+}
 /* .newsletter-container form {
 
   width: 100%;
