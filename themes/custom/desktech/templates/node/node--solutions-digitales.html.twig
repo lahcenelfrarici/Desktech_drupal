@@ -40,11 +40,13 @@
 														</div> #}
 							<div class="wrapper---type">
 								<p>{{'Type'|t}}</p>
-								<p>{{ node.field_type_so.value }}</p>
+								{# <p>{{ node.field_type_so.value }}</p> #}
+                   <p>{{ content.field_type_so.0 }}</p>
 							</div>
 							<div class="wrapper---type">
 								<p>{{'Utilisation'|t}}</p>
-								<p>{{ node.field_utilisation.value }}</p>
+								{# <p>{{ node.field_utilisation.value }}</p> #}
+                   <p>{{ content.field_utilisation.0 }}</p>
 							</div>
 							{# <div class="wrapper---type">
 								<p>{{'Vitesse'|t}}</p>
