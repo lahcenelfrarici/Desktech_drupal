@@ -10,9 +10,11 @@
   a {
     display: inline-block;
   }
-.menu_principe>.container div#block-desktech-site-branding a {
+
+  .menu_principe>.container div#block-desktech-site-branding a {
     display: initial;
-}
+  }
+
   .menu_principe div#navbarScroll {
     justify-content: right;
   }
@@ -579,5 +581,21 @@
 
   .title-detail_product h2 {
     font-size: 30px;
+  }
+
+  .twoo--img-sc {
+    flex-direction: column;
+    gap: 20px 0;
+  }
+
+  .twoo--img-sc .para--text {
+    flex-direction: column;
+    padding: 10px 5px !important;
+    width: auto;
+    position: relative;
+  }
+
+  section.slider .home_button {
+    width: auto;
   }
 }
