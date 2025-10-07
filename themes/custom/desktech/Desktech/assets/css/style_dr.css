@@ -546,6 +546,9 @@ footer.text-light.py-5 {
 .item--count-dc p, .item--count-dc span {
     font-family: Poppins;
 }
+div#banner___small section.banner_tp #dt__banner {
+  height: 450px;
+}
 /* .newsletter-container form {
 
   width: 100%;

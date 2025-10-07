@@ -601,4 +601,7 @@
   section.section-four-desktech {
   padding: 40px 15px;
 }
+div#banner___small section.banner_tp #dt__banner {
+  height: auto;
+}
 }
