@@ -1,4 +1,7 @@
 @media (min-width: 992px) {
+  .col-md-4.link___footer_height {
+  padding-left: 100px;
+}
   a:hover {
     transform: scale(0.9);
   }
@@ -598,10 +601,17 @@
   section.slider .home_button {
     width: auto;
   }
+
   section.section-four-desktech {
-  padding: 40px 15px;
-}
-div#banner___small section.banner_tp #dt__banner {
-  height: auto;
-}
+    padding: 40px 15px;
+  }
+
+  div#banner___small section.banner_tp #dt__banner {
+    height: auto;
+  }
+
+  .wisiwig--body img {
+    width: 100%;
+    height: 100%;
+  }
 }

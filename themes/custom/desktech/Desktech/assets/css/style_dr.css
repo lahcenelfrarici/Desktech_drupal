@@ -547,7 +547,16 @@ footer.text-light.py-5 {
     font-family: Poppins;
 }
 div#banner___small section.banner_tp #dt__banner {
-  height: 450px;
+  height: 500px;
+}
+div#banner___small section.banner_tp #dt__banner img{
+  object-fit: initial;
+}
+.last--list-foooter p {
+  margin-bottom: 5px;
+}
+.social-icons {
+  margin-top: 20px;
 }
 /* .newsletter-container form {
 
