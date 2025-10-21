@@ -624,3 +624,7 @@ button.ui-dialog-titlebar-close {outline: none;background-color: transparent;fil
     margin: 0;
     padding: 0;
 }
+section#blog--slider .col-lg-6 img {
+  object-fit: cover;
+  border-radius: 30px;
+}

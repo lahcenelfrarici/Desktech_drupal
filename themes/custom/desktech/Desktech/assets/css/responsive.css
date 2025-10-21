@@ -1,7 +1,8 @@
 @media (min-width: 992px) {
   .col-md-4.link___footer_height {
-  padding-left: 100px;
-}
+    padding-left: 100px;
+  }
+
   a:hover {
     transform: scale(0.9);
   }
@@ -12,6 +13,43 @@
 
   a {
     display: inline-block;
+  }
+  #block-desktech-sectiontwohp .one--img-sc+img {
+    height: 455px;
+    width: 412px;
+  }
+
+  #block-desktech-sectiontwohp section.section-two-desktech .right--section-two-desktech {
+    padding-top: 0;
+  }
+
+  #block-desktech-sectiontwohp .one--img-sc img {
+    height: 100%;
+    width: 366px;
+    border-radius: 33px;
+    object-fit: cover;
+  }
+
+  #block-desktech-sectiontwohp .one--img-sc {
+    height: 455px;
+    width: auto;
+    position: absolute;
+    left: 0;
+    z-index: 2;
+  }
+
+  .one--img-sc+img {
+    height: 455px;
+    width: 425px;
+    object-fit: cover;
+    border-radius: 33px;
+    position: absolute;
+    /*! background-position: 53% 49%; */
+    right: -49px;
+  }
+
+  #block-desktech-sectiontwohp .para--text {
+    opacity: 0;
   }
 
   .menu_principe>.container div#block-desktech-site-branding a {
@@ -94,6 +132,8 @@
 
 
 @media (max-width: 991px) {
+
+
   .wisiwig--body p img {
     width: 100%;
     height: 100%;
