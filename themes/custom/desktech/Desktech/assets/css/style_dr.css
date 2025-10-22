@@ -628,3 +628,22 @@ section#blog--slider .col-lg-6 img {
   object-fit: cover;
   border-radius: 30px;
 }
+
+section#blog--slider .col-lg-6 img {
+  object-fit: cover;
+  height: auto;
+}
+section#blog--slider .banner > img {
+  display: none;
+}
+section#blog--slider .container {
+  position: relative;
+  top: auto;
+  transform: initial;
+}
+section#blog--slider .row {
+  padding: 30px 0;
+}
+#block-desktech-sectionfourhp .one--img-sc-four {
+  height: auto;
+}

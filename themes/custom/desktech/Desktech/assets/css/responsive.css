@@ -134,6 +134,14 @@
 @media (max-width: 991px) {
 
 
+#block-desktech-sectiontwohp .one--img-sc + img {
+  width: 100%;
+  height: 100%;
+}
+
+#block-desktech-sectiontwohp .right--section-two-desktech {
+  padding-top: 0;
+}
   .wisiwig--body p img {
     width: 100%;
     height: 100%;
