@@ -1,4 +1,8 @@
 @media (min-width: 992px) {
+  .banner__news_modify img {
+    height: 500px;
+  }
+
   .col-md-4.link___footer_height {
     padding-left: 100px;
   }
@@ -14,6 +18,7 @@
   a {
     display: inline-block;
   }
+
   #block-desktech-sectiontwohp .one--img-sc+img {
     height: 455px;
     width: 412px;
@@ -134,14 +139,15 @@
 @media (max-width: 991px) {
 
 
-#block-desktech-sectiontwohp .one--img-sc + img {
-  width: 100%;
-  height: 100%;
-}
+  #block-desktech-sectiontwohp .one--img-sc+img {
+    width: 100%;
+    height: 100%;
+  }
 
-#block-desktech-sectiontwohp .right--section-two-desktech {
-  padding-top: 0;
-}
+  #block-desktech-sectiontwohp .right--section-two-desktech {
+    padding-top: 0;
+  }
+
   .wisiwig--body p img {
     width: 100%;
     height: 100%;
