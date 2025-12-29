@@ -550,7 +550,7 @@ div#banner___small section.banner_tp #dt__banner {
   height: 500px;
 }
 div#banner___small section.banner_tp #dt__banner img{
-  object-fit: initial;
+  object-fit: cover;
 }
 .last--list-foooter p {
   margin-bottom: 5px;
