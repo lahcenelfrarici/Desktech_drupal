@@ -1,4 +1,8 @@
 @media (min-width: 992px) {
+  .section-propose-twoo-desktech .stats-container>div {
+    width: 33%;
+  }
+
   .banner__news_modify img {
     height: 500px;
   }
